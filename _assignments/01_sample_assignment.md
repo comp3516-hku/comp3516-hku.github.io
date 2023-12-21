@@ -19,9 +19,9 @@ due_event:
 (2) In Tutorial 2, we also mention ACF can capture the periodic information of a signal. Please implement `get_freq_ACF(s_t, f_s)` to compute the frequency. Since ACF can only output one frequency, please return the frequency in a numpy array of type float.
 
 (3) For a signal that is the  aggregation of pure tone signals with different frequencies, i.e.
-$$
+\begin{equation}
 s(t) = \sum_{i=1}^{n} cos(2 \pi \cdot f_i \cdot t),
-$$
+\end{equation}
 where $n$ is the number of frequencies (`n < 1e6`). $f_i$ is the $i$-th frequency. $f_i \neq f_j, \forall i \neq j$. Can you derive an algorithm other than FFT and ACF that extracts the frequency component of $s(t)$? Please implement `get_freq_your_algo(s_t, f_s=16000)`. Note that we assume the frequencies are distinguishable under `f_s` ($f_s \gg 2 \cdot \max(f_i)$). Your goal is to output as many frequency component as possible. Your grade will depend on how many frequencies you can accurately extract. The return value should be stored in a numpy array (float) with ascending order. (You are not allowed to import/use any module for FFT or ACF in (3).)
 
 ```
