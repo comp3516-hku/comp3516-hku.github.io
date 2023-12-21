@@ -4,6 +4,23 @@
     tex2jax: {
       inlineMath: [ ['$','$'], ["\\(","\\)"] ],
       processEscapes: true
+    },
+    "SVG":{ 
+		font:font
+	},
+	"HTML-CSS": {
+		webFont: font,
+		imageFont: font,
+		preferredFont: font,
+		availableFonts: [],
+		scale: 85,
+		mtextFontInherit: true
+	},
+    TeX: {
+      Macros: {
+        RR: '{\\bf R}',
+        bold: ['{\\bf #1}',1]
+      }
     }
   });
 </script>
