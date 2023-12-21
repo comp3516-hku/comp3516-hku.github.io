@@ -27,6 +27,7 @@ layout: page
         {% if lecture.content != '' %}
         <br/>
         <div class="markdown-content" style="margin-top: 3px;">
+        {% include mathjax.html %}
         {{ lecture.content }}
         </div>
         {% endif %}
