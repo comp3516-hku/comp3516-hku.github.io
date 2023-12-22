@@ -4,11 +4,15 @@
 </script>
 <script type="text/javascript">
   MathJax = {
-    tex: {
+    tex2jax: {
       inlineMath: [['$', '$'], ['\\(', '\\)']],
       displayMath: [['$$', '$$'], ['\\[', '\\]']],
       processEscapes: true,
       processEnvironments: true
+    },
+    TeX: {
+      equationNumbers: { autoNumber: "AMS" },
+      tagSide: "right"
     },
     options: {
       skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
