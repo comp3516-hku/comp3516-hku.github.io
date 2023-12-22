@@ -1,5 +1,5 @@
 ---
-type: tutorial
+type: assignment
 date: 2024-01-26
 title: Tutorial 1
 # tldr: "Short text to discribe what this lecture is about."
