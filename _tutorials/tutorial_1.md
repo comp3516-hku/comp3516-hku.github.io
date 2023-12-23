@@ -1,4 +1,5 @@
 ---
+layout: tutorial
 type: tutorial
 date: 2024-01-26
 title: Tutorial 1 -- Frequency
