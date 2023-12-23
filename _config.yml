@@ -43,7 +43,7 @@ collections:
     announcements:
         output: true
     tutorials:
-        output: trues
+        output: true
 
 
 defaults:
