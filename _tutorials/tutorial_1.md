@@ -7,8 +7,6 @@ title: Tutorial 1 -- Frequency
 attachment: /static_files/tutorials/asg.zip
 mathjax: true
 ---
-
-
 In this tutorial, we will guide you through the key components in signal analysis -- frequency. For those who have completed ELEC3241 and ELEC3244, you'll find these concepts familiar and easier to grasp. However, I understand that many of you might be encountering signal processing for the first time in your studies at HKU. Don't worry if that's the case! This lab is designed to be self-contained, ensuring that all students, regardless of their prior exposure to the subject, can follow along comfortably.
 
 ## Signal
