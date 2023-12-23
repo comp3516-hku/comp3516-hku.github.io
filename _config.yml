@@ -42,6 +42,8 @@ collections:
         output: true
     announcements:
         output: true
+    tutorials:
+        output: trues
 
 
 defaults:
