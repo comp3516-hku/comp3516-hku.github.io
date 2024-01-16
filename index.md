@@ -26,8 +26,9 @@ This course introduces basic concepts, technologies, and applications of the Int
     </tr>
 </table>
 
-
+<br>
 ## Grading
+</br>
 
 **Note:** The assignments are tentative and subject to changes. More details to be announced. 
 
