@@ -42,8 +42,8 @@ collections:
         output: true
     lectures:
         output: true
-    # announcements:
-    #     output: false
+    announcements:
+        output: false
 
 
 defaults:
