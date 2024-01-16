@@ -6,10 +6,23 @@ This course introduces basic concepts, technologies, and applications of the Int
 
 **Important Note:** According to the University's guidelines, all lectures and tutorials will be delivered *f2f in teaching venues*. Lectures may be recorded, at best-effort, and video recordings will be uploaded to Moodle after the lectures. 
 
-|            |         Time/Day         | Avenue |
-|:----------:|:------------------------:|:------:|
-| Lecture-01 | 12:30 PM - 13:20 PM, Tue |   LE2  |
-| Lecture-02 | 12:30 PM - 14:20 PM, Fri |   LE2  |
+<table>
+    <tr>
+        <th></th>
+        <td>Time/Day</td>
+        <td>Venues</td>
+    </tr>
+    <tr>
+        <th>Lecture-01</th>
+        <td>12:30 PM - 13:20 PM, Tue</td>
+        <td>LE2</td>
+    </tr>
+    <tr>
+        <th>Lecture-02</th>
+        <td>12:30 PM - 14:20 PM, Fri</td>
+        <td>LE2</td>
+    </tr>
+</table>
 
 ## Grading
 
@@ -17,60 +30,47 @@ Note: The assignments are tentative and subject to changes. More details to be a
 
 
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-c3ow">Component</th>
-    <th class="tg-c3ow">Weight    </th>
-    <th class="tg-c3ow">Description</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0pky">Labs</td>
-    <td class="tg-0pky"> 12</td>
-    <td class="tg-0pky"> 4 labs in total</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Problem Sets   </td>
-    <td class="tg-0pky"> 10</td>
-    <td class="tg-0pky"> Two written problem sets</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Project I</td>
-    <td class="tg-0pky"> 10</td>
-    <td class="tg-0pky"> Individual project</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Project II</td>
-    <td class="tg-0pky"> 25</td>
-    <td class="tg-0pky"> Group project</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Peer Review</td>
-    <td class="tg-0pky"> 3</td>
-    <td class="tg-0pky">Peer reviews of project reports</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Bonus</td>
-    <td class="tg-0pky">  1</td>
-    <td class="tg-0pky"> The Takeaway Talk (TTT)*</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Final Exam</td>
-    <td class="tg-0pky"> 40</td>
-    <td class="tg-0pky"> </td>
-  </tr>
-</tbody>
+<table>
+    <tr>
+        <th>Component</th>
+        <td>Weight    </td>
+        <td>Description</td>
+    </tr>
+    <tr>
+        <th>Labs</th>
+        <td> 12</td>
+        <td> 4 labs in total</td>
+    </tr>
+    <tr>
+        <th>Problem Sets   </th>
+        <td> 10</td>
+        <td> Two written problem sets</td>
+    </tr>
+    <tr>
+        <th>Project I</th>
+        <td> 10</td>
+        <td> Individual project</td>
+    </tr>
+    <tr>
+        <th>Project II</th>
+        <td> 25</td>
+        <td> Group project</td>
+    </tr>
+    <tr>
+        <th>Peer Review</th>
+        <td> 3</td>
+        <td>Peer reviews of project reports</td>
+    </tr>
+    <tr>
+        <th>Bonus</th>
+        <td>  1</td>
+        <td> The Takeaway Talk (TTT)*</td>
+    </tr>
+    <tr>
+        <th>Final Exam</th>
+        <td> 40</td>
+        <td> </td>
+    </tr>
 </table>
 
 *TTT: We intend to design and develop this course as a communication-intensive course. As part of it, we have designed a special component named "3-Minutes Takeaway Talk". By the end of each lecture, I will reserve three minutes and invite one student to give a summary of the takeaway messages for the lecture, in the format of a Chalk Talk in front of the class. Every participant will be awarded a 1-point bonus. 
