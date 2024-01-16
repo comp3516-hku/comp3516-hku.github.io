@@ -1,13 +1,15 @@
 ---
 layout: home
 ---
+
+This course introduces basic concepts, technologies, and applications of the Internet of Things (IoT), with a focus on data analytics. The course covers a range of enabling techniques in sensing, computing, analytics, learning for IoT and connects them to exciting applications in smart homes, healthcare, security, etc. The lectures cover the pipeline of data generation, data acquisition, data transportation, data analysis and learning, and data applications, with various topics from the fundamentals (e.g., signal processing, statistical analysis, machine learning) to real-world systems. Billions of things are connected today, and this course helps students to understand how IoT will evolve into AIoT (Artificial Intelligence of Things).
+
 Important Note: According to the University's guidelines, all lectures and tutorials will be delivered *f2f in teaching venues*. Lectures may be recorded, at best-effort, and video recordings will be uploaded to Moodle after the lectures. 
 
 |            |         Time/Day         | Avenue |
 |:----------:|:------------------------:|:------:|
 | Lecture-01 | 12:30 PM - 13:20 PM, Tue |   LE2  |
 | Lecture-02 | 12:30 PM - 14:20 PM, Fri |   LE2  |
-
 
 ## Grading
 
