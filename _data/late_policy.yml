@@ -1,7 +1,8 @@
 policies:
-Each assignment has a due date and a due time, which will be posted on the course web page. For assignments, we will use a "slip days" system to give you some flexibility with the assignment deadlines. 
 
-Each student starts the semester with five (5) slip days, which can be used to push back assignment deadlines. Slip days work as follows:
+Each assignment has a due date and a due time, which will be posted on the course web page. For assignments, we will use a **"slip days"** system to give you some flexibility with the assignment deadlines. 
+
+Each student starts the semester with five (5) slip days, which can be used to push back assignment deadlines. Slip days work as follows
 
 Pushing an assignment deadline back by one day (24 hours) costs one slip day.
 An assignment deadline can be pushed back at most three days.
@@ -13,7 +14,7 @@ All the thresholds will be observed strictly. For example, a submission that is 
 •Assignments that are submitted late (with not enough slip days to cover them or more than 3 days) will still be accepted, but deducted to p = 0.99^t, where t is the uncovered late time rounded up in hours.
 
 
-* Let D be the deadline, and T your submission timestamp. The number of slip days that will be used for a submission, noted as SD, is calculated as follows:
+* Let D be the deadline, and T your submission timestamp. The number of slip days that will be used for a submission, noted as SD, is calculated as follows
 
 if (T - D) <= 30 minutes, SD = 0;
 
@@ -25,7 +26,7 @@ else if (T - D) <= 72 hours, SD = 3;
 
 else mark *= p.
 
-These slip days are not for "procrastination." They are designed to give you more breathing room in case some (usually unexpected and mostly unwanted) little things come up during the semester: short illnesses, injuries, visiting family or friends, a burst of work in other classes, etc. Use them wisely. 
+These slip days are not for "procrastination." They are designed to give you more breathing room in case some (usually unexpected and mostly unwanted) little things come up during the semeste short illnesses, injuries, visiting family or friends, a burst of work in other classes, etc. Use them wisely. 
 
 
 
