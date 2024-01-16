@@ -26,8 +26,7 @@ This course introduces basic concepts, technologies, and applications of the Int
 
 ## Grading
 
-Note: The assignments are tentative and subject to changes. More details to be announced. 
-
+**Note:** The assignments are tentative and subject to changes. More details to be announced. 
 
 
 <table>
@@ -80,10 +79,10 @@ Besides TTT, as you can tell, the course also features intensive written communi
 
 ## Office Hour
 
-|                                                           Instructor                                                           	|                                           Tutor                                           	|
-|:------------------------------------------------------------------------------------------------------------------------------:	|:-----------------------------------------------------------------------------------------:	|
-| Name: Dr. Chenshu WU                                                                                                           	| Name: Mr. Sheng LYU                                                                       	|
-| Office: CB315B                                                                                                                 	| Office: HW101M                                                                            	|
-| Email: chenshu@cs.hku.hk                                                                                                       	| Email: shenglyu@connect.hku.hk                                                            	|
-| Office hour:   Tue 9:00 am-10:30 am <br> Fri 9:00 am to 10:30 am <br> By appointment: [Appointment](https://calendly.com/cswu-1/comp3516-office-hours) 	| Office hour: Wed 10:30 AM - 11:30 AM <br> Fri 10:30 AM - 11:30 AM <br> By appointment (email) only. 	|
-|  Tel: 2241 5726                                                                                                                	|  Tel: 9476 5141 (Not preferred)                                                           	|
+|             	|                                                         Instructor                                                         	|                                          Tutor                                         	|
+|-------------	|:--------------------------------------------------------------------------------------------------------------------------:	|:--------------------------------------------------------------------------------------:	|
+| Name        	| Dr. Chenshu WU                                                                                                             	| Mr. Sheng LYU                                                                          	|
+| Office      	| Office: CB315B                                                                                                             	| HW101M                                                                                 	|
+| Email       	| chenshu@cs.hku.hk                                                                                                          	| shenglyu@connect.hku.hk                                                                	|
+| Office Hour 	| <br> Tue 9:00 am-10:30 am<br> Fri 9:00 am to 10:30 am<br>By appointment: [Appointment](https://calendly.com/cswu-1/comp3516-office-hours) 	| <br>Wed 10:30 AM - 11:30 AM<br>Fri 10:30 AM - 11:30 AM<br>By appointment (email) only. 	|
+| Tel         	| 2241 5726                                                                                                                  	| 9476 5141 (Not preferred)                                                              	|
