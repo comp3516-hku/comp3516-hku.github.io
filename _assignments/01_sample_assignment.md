@@ -1,6 +1,6 @@
 <!-- ---
 type: assignment
-date: 2024-01-26T4:00:00+4:30
+date: 2024-01-26
 title: 'Program Assignment #1 -- Signal Processing Basis'
 pdf: /static_files/assignments/asg.pdf
 attachment: /static_files/assignments/asg.zip

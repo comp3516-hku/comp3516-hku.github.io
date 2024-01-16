@@ -1,7 +1,7 @@
 ---
 type: lab
 date: 2024-01-22
-title: 'Lab #1 -- Signals'
+title: 'Lab #1 Signals'
 # pdf: /static_files/assignments/asg.pdf
 # attachment: /static_files/assignments/asg.zip
 # solutions: /static_files/assignments/asg_solutions.pdf
