@@ -8,9 +8,8 @@ This course introduces basic concepts, technologies, and applications of the Int
 
 <table>
     <tr>
-        <th></th>
-        <td>Time/Day</td>
-        <td>Venues</td>
+        <th>Time/Day</th>
+        <th>Venues</th>
     </tr>
     <tr>
         <th>Lecture-01</th>
@@ -24,6 +23,7 @@ This course introduces basic concepts, technologies, and applications of the Int
     </tr>
 </table>
 
+
 ## Grading
 
 Note: The assignments are tentative and subject to changes. More details to be announced. 
@@ -33,8 +33,8 @@ Note: The assignments are tentative and subject to changes. More details to be a
 <table>
     <tr>
         <th>Component</th>
-        <td>Weight    </td>
-        <td>Description</td>
+        <th>Weight    </th>
+        <th>Description</th>
     </tr>
     <tr>
         <th>Labs</th>
