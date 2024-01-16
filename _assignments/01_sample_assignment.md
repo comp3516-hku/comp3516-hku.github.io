@@ -1,16 +1,16 @@
-<!-- ---
+---
 type: assignment
-date: 2024-01-26
-title: 'Program Assignment #1 -- Signal Processing Basis'
-pdf: /static_files/assignments/asg.pdf
-attachment: /static_files/assignments/asg.zip
+date: 2024-01-15
+title: 'Problem Set #1'
+# pdf: /static_files/assignments/asg.pdf
+# attachment: /static_files/assignments/asg.zip
 # solutions: /static_files/assignments/asg_solutions.pdf
 due_event: 
     type: due
-    date: 2024-02-19T23:59:00+1:00
+    date: 2024-03-21
     description: 'Assignment #1 due'
 mathjax: true
---- -->
+---
 <!-- ## Problem 1: Frequency
 
 **You are required to implement the function in `problem1.py`.**
