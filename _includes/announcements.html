@@ -1,5 +1,6 @@
 {% assign all_events = site.events | concat: site.lectures %}
 {% assign all_events = all_events | concat: site.assignments %}
+{% assign all_events = all_events | concat: site.tutorials %}
 
 {% assign events_to_show = "" | split: "" %}
 {% for e in all_events %}
