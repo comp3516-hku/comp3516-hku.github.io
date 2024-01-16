@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2024-01-23
-title: Wireless Communications
+title: Basic of Signals
 # tldr: ""
 # thumbnail: /static_files/presentations/lec.jpg
 links: 

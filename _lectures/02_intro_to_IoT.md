@@ -2,7 +2,7 @@
 type: lecture
 date: 2024-01-19
 title: Introduction to IoT
-tldr: ""
+# tldr: ""
 # thumbnail: /static_files/presentations/lec.jpg
 links: 
     # - url: /static_files/presentations/lec.zip

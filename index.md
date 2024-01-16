@@ -109,7 +109,8 @@ All the thresholds will be observed strictly. For example, a submission that is 
 **Assignments that are submitted late (with not enough slip days to cover them or more than 3 days) will still be accepted, but deducted to p = 0.99^t, where t is the uncovered late time rounded up in hours.**
 
 
-* Let D be the deadline, and T your submission timestamp. The number of slip days that will be used for a submission, noted as SD, is calculated as follows:
+Let D be the deadline, and T your submission timestamp. The number of slip days that will be used for a submission, noted as SD, is calculated as follows:
+  
 ```
 if (T - D) <= 30 minutes, SD = 0;
 

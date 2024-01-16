@@ -2,7 +2,7 @@
 type: lecture
 date: 2024-01-16
 title: Course Overview
-tldr: ""
+# tldr: ""
 # thumbnail: /static_files/presentations/lec.jpg
 links: 
     # - url: /static_files/presentations/lec.zip
