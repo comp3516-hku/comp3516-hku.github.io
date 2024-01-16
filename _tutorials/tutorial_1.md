@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: tutorial
 type: tutorial
 date: 2024-01-26
@@ -7,8 +7,8 @@ title: Tutorial 1 -- Frequency
 # thumbnail: /static_files/presentations/lec.jpg
 attachment: /static_files/tutorials/asg.zip
 mathjax: true
----
-In this tutorial, we will guide you through the key components in signal analysis -- frequency. For those who have completed ELEC3241 and ELEC3244, you'll find these concepts familiar and easier to grasp. However, I understand that many of you might be encountering signal processing for the first time in your studies at HKU. Don't worry if that's the case! This lab is designed to be self-contained, ensuring that all students, regardless of their prior exposure to the subject, can follow along comfortably.
+--- -->
+<!-- In this tutorial, we will guide you through the key components in signal analysis -- frequency. For those who have completed ELEC3241 and ELEC3244, you'll find these concepts familiar and easier to grasp. However, I understand that many of you might be encountering signal processing for the first time in your studies at HKU. Don't worry if that's the case! This lab is designed to be self-contained, ensuring that all students, regardless of their prior exposure to the subject, can follow along comfortably.
 
 ## Signal
 
@@ -20,4 +20,4 @@ Note that the signal is a finite real valued function. These are derived from ph
 
 In the realm of signal processing, we view a signal as a function that conveys information about a particular phenomenon. Essentially, any variable quantity that changes over time or space can serve as a signal, facilitating the communication of messages between observers.
 
-**The key question in signal processing is:  how we can model a signal?**. We will illustrate it with a few examples.
+**The key question in signal processing is:  how we can model a signal?**. We will illustrate it with a few examples. -->

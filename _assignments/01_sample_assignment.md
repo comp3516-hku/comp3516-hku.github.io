@@ -1,4 +1,4 @@
----
+<!-- ---
 type: assignment
 date: 2024-01-26T4:00:00+4:30
 title: 'Program Assignment #1 -- Signal Processing Basis'
@@ -10,8 +10,8 @@ due_event:
     date: 2024-02-19T23:59:00+1:00
     description: 'Assignment #1 due'
 mathjax: true
----
-## Problem 1: Frequency
+--- -->
+<!-- ## Problem 1: Frequency
 
 **You are required to implement the function in `problem1.py`.**
 
@@ -38,7 +38,7 @@ Your Answer 3: [10., 12., 13., 15., 30., 200., 399.] -> Correct 3, Wrong 4, Miss
 
 
 ## Problem 3: Filter
-
+ -->
 
 
 
