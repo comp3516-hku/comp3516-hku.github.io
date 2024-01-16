@@ -77,3 +77,13 @@ Note: The assignments are tentative and subject to changes. More details to be a
 The participants will be selected (randomly, or at least as randomly as possible) by me at the end of the lecture. If you would like to participate, please sign up with your name first. 
 
 Besides TTT, as you can tell, the course also features intensive written communications (technical report, peer review, etc) and oral communications (presentation), plus wireless communications certainly:-P
+
+## Office Hour
+
+|                                                           Instructor                                                           	|                                           Tutor                                           	|
+|:------------------------------------------------------------------------------------------------------------------------------:	|:-----------------------------------------------------------------------------------------:	|
+| Name: Dr. Chenshu WU                                                                                                           	| Name: Mr. Sheng LYU                                                                       	|
+| Office: CB315B                                                                                                                 	| Office: HW101M                                                                            	|
+| Email: chenshu@cs.hku.hk                                                                                                       	| Email: shenglyu@connect.hku.hk                                                            	|
+| Office hour:   Tue 9:00 am-10:30 am  Fri 9:00 am to 10:30 am By appointment: https://calendly.com/cswu-1/comp3516-office-hours 	| Office hour: Wed 10:30 AM - 11:30 AM Fri 10:30 AM - 11:30 AM By appointment (email) only. 	|
+|  Tel: 2241 5726                                                                                                                	|  Tel: 9476 5141 (Not preferred)                                                           	|
