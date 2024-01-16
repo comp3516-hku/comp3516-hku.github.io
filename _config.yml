@@ -36,14 +36,14 @@ future: true
 collections:
     events:
         output: true
-    # lectures:
-    #     output: false
     assignments:
         output: true
-    # announcements:
-    #     output: false
     tutorials:
         output: true
+    # lectures:
+    #     output: false
+    # announcements:
+    #     output: false
 
 
 defaults:
