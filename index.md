@@ -28,9 +28,8 @@ This course introduces basic concepts, technologies, and applications of the Int
 </table>
 
 <br>
-## Grading
-</br>
-
+## **Grading**
+<br>
 **Note:** The assignments are tentative and subject to changes. More details to be announced. 
 
 
@@ -82,7 +81,7 @@ The participants will be selected (randomly, or at least as randomly as possible
 
 Besides TTT, as you can tell, the course also features intensive written communications (technical report, peer review, etc) and oral communications (presentation), plus wireless communications certainly:-P
 
-## Office Hour
+## **Office Hour**
 
 |             	|                                                         Instructor                                                         	|                                          Tutor                                         	|
 |-------------	|:--------------------------------------------------------------------------------------------------------------------------:	|:--------------------------------------------------------------------------------------:	|
@@ -94,7 +93,7 @@ Besides TTT, as you can tell, the course also features intensive written communi
 
 
 
-## Late Policy
+## **Late Policy**
 
 Each assignment has a due date and a due time, which will be posted on the course web page. For assignments, we will use a "slip days" system to give you some flexibility with the assignment deadlines. 
 
