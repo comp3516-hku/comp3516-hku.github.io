@@ -1,4 +1,5 @@
 ---
+layout: lab
 type: lab
 date: 2024-01-22
 title: 'Lab #1 Signals'
