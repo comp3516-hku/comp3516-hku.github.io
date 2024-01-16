@@ -2,6 +2,9 @@
 layout: home
 ---
 
+**sThis website is maintained at best effort. Enrolled HKU students should join [Moodle page](https://moodle.hku.hk/course/view.php?id=106576). In the event of any discrepancies between this page and Moodle, the Moodle page shall prevail.**
+
+
 This course introduces basic concepts, technologies, and applications of the Internet of Things (IoT), with a focus on data analytics. The course covers a range of enabling techniques in sensing, computing, analytics, learning for IoT and connects them to exciting applications in smart homes, healthcare, security, etc. The lectures cover the pipeline of data generation, data acquisition, data transportation, data analysis and learning, and data applications, with various topics from the fundamentals (e.g., signal processing, statistical analysis, machine learning) to real-world systems. Billions of things are connected today, and this course helps students to understand how IoT will evolve into AIoT (Artificial Intelligence of Things).
 
 **Important Note:** According to the University's guidelines, all lectures and tutorials will be delivered *f2f in teaching venues*. Lectures may be recorded, at best-effort, and video recordings will be uploaded to Moodle after the lectures. 
