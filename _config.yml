@@ -40,8 +40,8 @@ collections:
         output: true
     tutorials:
         output: true
-    # lectures:
-    #     output: false
+    lectures:
+        output: true
     # announcements:
     #     output: false
 
