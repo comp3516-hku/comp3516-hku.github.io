@@ -11,6 +11,7 @@ This course introduces basic concepts, technologies, and applications of the Int
 
 <table>
     <tr>
+        <th>Lecture</th>
         <th>Time/Day</th>
         <th>Venues</th>
     </tr>
