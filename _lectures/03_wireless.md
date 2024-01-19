@@ -9,6 +9,6 @@ links:
     #   name: notes
     # - url: /static_files/presentations/code.zip
     #   name: codes
-    # - url: https://connecthkuhk-my.sharepoint.com/:b:/g/personal/shenglyu_connect_hku_hk/ETqiJ3tbDsFMuYAkFOW10yMBrotQch0ba7hmZPsCHjerQw?e=PkENLz
-    #   name: slides
+    - url: https://connecthkuhk-my.sharepoint.com/:b:/g/personal/shenglyu_connect_hku_hk/ET0PkbBecltCgtHCaq6M8V8BNNNT32ls5g9gg7fY-gAofg?e=ysI5PL
+      name: slides
 ---
