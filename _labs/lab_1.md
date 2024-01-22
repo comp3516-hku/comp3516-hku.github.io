@@ -121,11 +121,12 @@ HTML(f"""
 ```
 
 
+<!-- <iframe width="960" height="540" src="../static_files/lab_1_signal_files/example_data/example_1.mp4" frameborder="0" allowfullscreen></iframe> -->
 
 
 
 <video width="960" height="540" controls>
-    <source src="example_data/example_1.mp4">
+    <source src="../static_files/lab_1_signal_files/example_data/example_1.mp4">
 </video>
 
 
