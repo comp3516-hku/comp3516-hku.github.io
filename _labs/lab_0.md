@@ -8,9 +8,6 @@ attachment: /static_files/lab_0_release.zip
 # solutions: /static_files/assignments/asg_solutions.pdf
 mathjax: true
 ---
-
-# Lab 0 -- Beginning!
-
 Welcome to COMP3516@HKU 2024 Spring. This is an undergraduate elective course for senior CS students. This course focuses on fundamental data analytic techniques applicable to IoT (Internet of Things) data. IoT, a domain centered around ubiquitous sensing and computing, finds its applications in diverse fields such as smart homes, healthcare, edge computing, and security. A key aspect of IoT data analysis is basic signal processing, a skill set that may be new to many of you. Students who have completed ELEC3241 and ELEC3244 will find these concepts somewhat familiar, but prior experience is not a necessity. This course is not structured as a rigorous DSP (Digital Signal Processing) class; hence, intricate mathematical derivations will not be a focal point. Instead, our emphasis will be on using coding to analyze data effectively.
 
 Our course structure includes four lab sessions, each comprising comprehensive tutorials and programming tasks. Lab 1 introduces common IoT signals, while Labs 2 and 3 delve into fundamental signal data analytics, specifically focusing on FFT (Fast Fourier Transform) and ACF (Auto-Correlation Function). In Lab 4, we'll demonstrate techniques to filter out background noise. Post these labs, you'll be well-equipped to analyze IoT data. You are required to implement an individual project, which includes detecting the breathing rate from acoustic data. 
