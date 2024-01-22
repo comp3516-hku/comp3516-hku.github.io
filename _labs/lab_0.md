@@ -8,8 +8,8 @@ attachment: /static_files/lab_0_release.zip
 # solutions: /static_files/assignments/asg_solutions.pdf
 due_event: 
     type: due
-    date: ""
-    description: 'Lab #0 due'
+    date: "2024-02-01T23:59:59"
+    description: 'No need to submit for Lab 0'
 mathjax: true
 ---
 Welcome to COMP3516@HKU 2024 Spring. This is an undergraduate elective course for senior CS students. This course focuses on fundamental data analytic techniques applicable to IoT (Internet of Things) data. IoT, a domain centered around ubiquitous sensing and computing, finds its applications in diverse fields such as smart homes, healthcare, edge computing, and security. A key aspect of IoT data analysis is basic signal processing, a skill set that may be new to many of you. Students who have completed ELEC3241 and ELEC3244 will find these concepts somewhat familiar, but prior experience is not a necessity. This course is not structured as a rigorous DSP (Digital Signal Processing) class; hence, intricate mathematical derivations will not be a focal point. Instead, our emphasis will be on using coding to analyze data effectively.
