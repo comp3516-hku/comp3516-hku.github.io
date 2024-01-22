@@ -8,7 +8,7 @@ attachment: /static_files/lab_0_release.zip
 # solutions: /static_files/assignments/asg_solutions.pdf
 due_event: 
     type: due
-    date: "2024-02-01T23:59:59"
+    date: "2024-01-22T23:59:59"
     description: 'No need to submit for Lab 0'
 mathjax: true
 ---
