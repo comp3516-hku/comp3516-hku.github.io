@@ -4,7 +4,7 @@ type: lab
 date: 2024-01-22
 title: 'Lab #1 Signals'
 # pdf: /static_files/assignments/asg.pdf
-# attachment: /static_files/assignments/asg.zip
+attachment: /static_files/lab_1_release.zip
 # solutions: /static_files/assignments/asg_solutions.pdf
 due_event: 
     type: due
