@@ -154,10 +154,10 @@ HTML("""
 
 
 
-<audio <audio width=" " height=" "
-  src="example_data/example_1.mp4"  
+<audio width=" " height=" "
+  src="../static_files/lab_1_signal_files/example_data/example_1.mp4"  
   controls>
-</audio>
+</width=>
 
 
 
