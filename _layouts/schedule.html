@@ -18,10 +18,10 @@ layout: default
         </li>
         
         {% assign all_assignment_dues = site.assignments | map: "due_event" %}
-        {% assign all_lab_dues = "" | split: "" %}  {# Initialize as an empty array #}
+        {% assign all_lab_dues = "" | split: "" %}  
         {% for lab in site.labs %}
             {% if lab.due_event %}
-                {% assign single_lab_due = lab.due_event | split: "" %}  {# Convert single object into an array #}
+                {% assign single_lab_due = lab.due_event | split: "" %}  
                 {% assign all_lab_dues = all_lab_dues | concat: single_lab_due %}
             {% endif %}
         {% endfor %}
