@@ -2,7 +2,7 @@
 layout: lab
 type: lab
 date: 2024-01-29
-title: 'Lab #2 Signals'
+title: 'Lab #2 Frequency'
 # pdf: /static_files/assignments/asg.pdf
 attachment: /static_files/lab_2_release.zip
 # solutions: /static_files/assignments/asg_solutions.pdf
