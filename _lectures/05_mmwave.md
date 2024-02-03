@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2024-02-02
+date: 2024-02-05
 title: mmWave Sensing I
 # tldr: ""
 # thumbnail: /static_files/presentations/lec.jpg
@@ -9,6 +9,6 @@ links:
     #   name: notes
     # - url: /static_files/presentations/code.zip
     #   name: codes
-    # - url: https://connecthkuhk-my.sharepoint.com/:b:/g/personal/shenglyu_connect_hku_hk/ETqiJ3tbDsFMuYAkFOW10yMBrotQch0ba7hmZPsCHjerQw?e=PkENLz
-    #   name: slides
+    - url: https://connecthkuhk-my.sharepoint.com/:b:/g/personal/shenglyu_connect_hku_hk/EfU83Uemu9dJghqtmDGkX8sBquvm0H_HU7fL5V315IfITw?e=R3Pzm6
+      name: slides
 ---
