@@ -10,5 +10,5 @@ links:
     # - url: /static_files/presentations/code.zip
     #   name: codes
     # - url: https://connecthkuhk-my.sharepoint.com/:b:/g/personal/shenglyu_connect_hku_hk/ETqiJ3tbDsFMuYAkFOW10yMBrotQch0ba7hmZPsCHjerQw?e=PkENLz
-    #   name: slides
+      name: slides
 ---
