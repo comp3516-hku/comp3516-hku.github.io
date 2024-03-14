@@ -1,7 +1,7 @@
 ---
 layout: lab
 type: lab
-date: 2024-02-20
+date: 2024-03-13
 title: 'Individual Project (Project I)'
 # pdf: /static_files/assignments/asg.pdf
 attachment: /static_files/individual_project_release.zip

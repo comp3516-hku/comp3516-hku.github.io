@@ -1,7 +1,7 @@
 ---
 layout: lab
 type: lab
-date: 2024-02-20
+date: 2024-02-21
 title: 'Lab #4 Filtering'
 # pdf: /static_files/assignments/asg.pdf
 attachment: /static_files/lab_4_release.zip
