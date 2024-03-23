@@ -567,15 +567,15 @@ Please generate the following signals by implementing `generate_signal(id)`, whe
 
 1. Generate a pure tone signal with frequency and phase offset.
 
-![Pure Tone (Task 1-1-1)](image/lab_1_1_1.png)
+![Pure Tone (Task 1-1-1)](../static_files/lab_1_image/lab_1_1_1.png)
    
 2. Generate rectangle wave (pulse) and triangle wave.
 
-![Rectangle and triangle wave (Task 1-1-2)](image/lab_1_1_2.png)
+![Rectangle and triangle wave (Task 1-1-2)](../static_files/lab_1_image/lab_1_1_2.png)
    
 3. Generate the complex signal according to the real and imaginary parts. These two are all pure tone signals.
 
-![Complex signal (Task 1-1-3)](image/lab_1_1_3.png)
+![Complex signal (Task 1-1-3)](../static_files/lab_1_image/lab_1_1_3.png)
 
 You should both return the time stamps (in `s`) and signals. For facilitating
   the testing of your work, please strictly follow the return format.

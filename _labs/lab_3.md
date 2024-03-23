@@ -4419,9 +4419,73 @@ In a nutshell, we introduce ACF in this lab. You are required to know the physic
 
 ## Programming Task
 
-Please refer to `task_3.pdf` for more details.
+### Task 3-1: Apply ACF (20 points)
 
-After implementing the tasks, **please run `python check.py --uid <YOUR_UID>` before submitting.** This script performs automated tests on the examples provided in the docstrings. Failing these tests indicates potential critical issues in your code. Strive to resolve these problems. After that, it will create a zip file named after your `uid`. Make sure you enter the right `uid`. 
+**You are required to implement the functions in `task_3_1.py`**.
+
+Compute the frequency spectrum of the following signals. You are supposed to implement `apply_acf_pt()` and `apply_acf_pulse()` for the following two signals, respectively.
+
+The sampling rate `self.fs` is 500 Hz.  In this task, you are required to return the normalized ACF, i.e. time lag and ACF. 
+
+1. Pure Tone: The time range is $0 \le t < 10s$.
+$$
+s(t) = 2.5 \cdot \cos(2 \pi \cdot 12.3 \cdot t + \pi/3)
+$$
+
+2. Pulse signal: The time range is $0 \le t < 2s$.
+$$
+s(t)= 
+\begin{cases}
+0 & \text { for } \: 0 \le t < 0.3 \\ 
+3 & \text { for } \: 0.3 \le t < 0.9 \\ 
+0 & \text { for } \: 0.9 \le t < 1.2 \\ 
+2 & \text { for } \: 1.2 \leq t < 1.8 \\ 
+0 & \text { for } \: 1.8 \le t < 2
+\end{cases},
+$$
+
+
+
+
+
+### Task 3-2: Extract Periodicty from ACF (60 points)
+
+**You are required to implement the functions in `task_3_2.py`**.
+
+In this task, you are now given multiple files. These files contain signals that we want you to perform frequency analysis on. Your task is to implement `get_br_1()`, `get_br_2()`, `get_hr_1()` and `get_hr_2()`, respectively.
+
+1. In the following problems, you should use `task_3_2_1.pickle`. It is a clip of breathing signal. It records the chest movement over time. The sampling rate is 20 Hz.  Normally, the breathing rate of an adult is 12-25 BPM. You are required to calculate the breathing rate following the instructions:
+
+   1) `get_br_1()`: Calculate the breathing rate without windows. You should return the breathing rate (a single float value) in BPM.
+
+   2) `get_br_2()`: Get the breathing rate over time $b(t)$. You should use choose the window length as short as possible with time resolution of 1s. Your window length should be chosen from [1, 10]s and we assume the window length here is an integer.
+  
+2. In the following problems, you should use `task_3_2_2.pickle`. It is a clip of ECG signal after filtering (You do not need to care about it yet.). Your task is to uncover the heart rate from ECG as a function of time. Heartbeat is a periodic event, and the heart rate is the frequency that the heart beats.  The heart rate of this participant is between 60 - 120 BPM (Beat Per Second).
+   
+   1) `get_hr_1()`: You should use a 5-s sliding window with step of 2s. 
+
+   2) `get_hr_2()`: You should adjust your window_length and window_step to make sure the frequency resolution is 0.5 Hz and time resolution is 0.1s.
+  
+**Note:**
+
+- You should use ACF to acquire the results, rather than other approaches. Meanwhile, the accurate answer (Ground Truth, GT) is determined by ACF.
+- For task 3_2_1_1, 3_2_2_1 and 3_2_2_2, the answer is fixed. Your answer will be evaluated directly with GT.
+- For task 3_2_1_2, you should pick the minimum window length (int) required. You will be graded by the accuracy of your choice of window_length, window_step and your $b(t)$. So will task 3_2_2_1 and 3_2_2_2.
+
+
+
+
+### Task 3-3: Beat! (20 points)
+
+**You are required to implement the functions in `task_3_3.py`**.
+
+Get the beat tempo from a music. The beat tempo in music refers to the speed or pace at which a piece of music is played, and it is typically measured in beats per minute (BPM). This measurement indicates how many beats occur within one minute of the music playing. Tempo is a crucial aspect of music as it helps to define the mood and genre of a piece, ranging from very slow and contemplative to fast and energetic.
+
+In this task, you can either choose **ACF** or **FFT** to get the result. The tempo range is 70-150 BPM. You are only required to return one value (float) indicating the tempo in BPM.  
+
+## How to submit
+
+**Please run `python check.py --uid <YOUR_UID>` before submitting.** This script performs automated tests on the examples provided in the docstrings. Failing these tests indicates potential critical issues in your code. Strive to resolve these problems. After that, it will create a zip file named after your `uid`. Make sure you enter the right `uid`. 
 
 It's important to avoid changing the names of any files, including both the zip file and the program files contained within. Altering file names can lead to grading errors. Ensure that all file names remain as they are to facilitate accurate assessment of your work.
 
