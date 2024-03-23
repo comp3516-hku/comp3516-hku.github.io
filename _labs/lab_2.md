@@ -586,12 +586,88 @@ In summary, the choice of sampling rate is critical in accurately capturing and 
 
 ## Programming task
 
-Please refer to `task_2.pdf` for more details.
+### Task 2-1: Apply FFT (30 points)
 
-After implementing the tasks, **please run `python check.py --uid <YOUR_UID>` before submitting.** This script performs automated tests on the examples provided in the docstrings. Failing these tests indicates potential critical issues in your code. Strive to resolve these problems. After that, it will create a zip file named after your `uid`. Make sure you enter the right `uid`. 
+**You are required to implement the functions in `task_2_1.py`**.
+
+Compute the frequency spectrum of the following signals. You are supposed to implement `apply_fft_pt()` and `apply_fft_pulse()` for the following two signals, respectively.
+
+The sampling rate `self.fs` is 2000 Hz. The time range is $-1 \le t < 1s$. In this task, you are required to return the frequency spectrum, i.e. frequency axis and magnitude. Also, you are expected to perform $N$-point FFT, where $N$ is the length of the signal.
+
+1. Pure Tone:s
+$$
+s(t) = 1.25 \cdot \cos(2 \pi \cdot 50.5 \cdot t + \pi/3)
+$$
+
+1. Pulse signal:
+$$
+s(t)= 
+\begin{cases}
+0 & \text { for } \: -1 \le t < -0.7 \\ 
+3 & \text { for } \: -0.7 \le t < -0.1 \\ 
+2 & \text { for } \: -0.1 \le t < 0.4 \\ 
+1 & \text { for } \: 0.4 \leq t < 0.8 \\ 
+0 & \text { for } \: 0.8 \le t < 1
+\end{cases},
+$$
+
+
+
+
+### Task 2-2: Get Frequency from FFT I (40 points)
+
+**You are required to implement the functions in `task_2_2.py`**.
+
+In this task, you are now given multiple files. These files contain signals that we want you to perform frequency analysis on. Your task is to implement `get_freq_spt()`, `get_bw_chirp()`, `get_heart_rate()` and `get_breathe_rate()`, respectively.
+
+1. `task_2_2_1.pickle`: The sum of several pure tone signals. The sampling rate is 16000 Hz. You need to return 3 primary frequency components in descending order.
+   
+2. `task_2_2_2.pickle`: A chirp signal. The sampling rate is 16000 Hz. In this task, your task is to return the bandwidth of the chirp signal.
+   
+3. `task_2_2_3.pickle`: A clip of ECG (electrocardiogram) signal. The sampling rate is 100 Hz. Your task is to uncover the heart rate from ECG. Heartbeat is a periodic event, and the heart rate is the frequency that the heart beats.  The heart rate of this participant is between 60 - 90 BPM (Beat Per Second). You should return the heart rate in BPM. 
+   
+4. `task_2_2_4.pickle`: A clip of breath signal. It records the chest movement over time. The sampling rate is 20 Hz. You are required to calculate the breathing rate. Normally, the breathing rate of an adult is 12-25 BPM. You should return the breathing rate in BPM.
+
+**Note:**
+
+- For task 2_2_3 and task 2_2_4, you are recommended to only focus on those peaks whose corresponding frequencies lie in the reasonable range of your task, i.e. heart rate range or breathing rate range.
+- For tasks 2_2_2, 2_2_3, and 2_2_4, your results will be evaluated within certain thresholds to determine their accuracy. We will use two thresholds to assess your answers: one for correct answers and another for incorrect ones. Answers falling between these thresholds will have their grades adjusted proportionally based on their proximity to the Ground Truth (GT).
+  - task 2_2_2: A response within $\pm 10\%$ of the GT will be considered correct. Answers deviating by more than $\pm 15\%$ from the GT will be marked incorrect.
+  - task 2_2_3: The floating ratio is $\pm 5\%$ for a correct answer and $\pm 8\%$ for an incorrect one.
+  - task 2_2_4: The floating ratio is $\pm 3\%$ for a correct answer and $\pm 6\%$ for an incorrect one.
+
+
+
+### Task 2-3: Get Frequency from FFT II (30 points)
+
+**You are required to implement the functions in `task_2_3.py`**.
+
+Get the frequency list of the following signals. The time range is $\left.\left[-\dfrac{N}{2\cdot f_s}, -\dfrac{N}{2\cdot f_s}\right.\right)$s, where $f_s$ is the sampling rate and $N$ is the number of samples. We perform $N$-point FFT. 
+
+In this task, you have to first set proper `fs` and `N`, then perform FFT and get the frequency list.
+
+1. Implement `get_freq_1()` to get the frequency list of signal function:
+
+$$
+s(t) = \cos(2 \pi \cdot 10.99 \cdot t) + \cos(2 \pi \cdot 11 \cdot t) + \sin(2 \pi \cdot 10.98 \cdot t)
+$$
+
+2. Implement `get_freq_2()` to get the frequency list of signal function:
+
+$$
+s(t) = \cos(2 \pi \cdot 51.2 \cdot t) + \sin(2 \pi \cdot 1000.6 \cdot t) + \cos(2 \pi \cdot 2000 \cdot t)
+$$
+
+You have to return `fs`, `N`, and `f`, where `f` is the frequency list.
+
+## How to submit
+
+**Please run `python check.py --uid <YOUR_UID>` before submitting.** This script performs automated tests on the examples provided in the docstrings. Failing these tests indicates potential critical issues in your code. Strive to resolve these problems. After that, it will create a zip file named after your `uid`. Make sure you enter the right `uid`. 
 
 It's important to avoid changing the names of any files, including both the zip file and the program files contained within. Altering file names can lead to grading errors. Ensure that all file names remain as they are to facilitate accurate assessment of your work.
 
 Your submission to **Moodle** should consist solely of the **generated `*.zip` file**. It is your responsibility to double check whether your submitted zip file includes your latest work. 
+
+
 
     

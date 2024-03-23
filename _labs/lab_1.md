@@ -559,10 +559,89 @@ In this tutorial, we talk about what is signal and introduce some useful signals
 
 ## Programming Task
 
-Please refer to `task_1.pdf` for more details.
+### Task 1-1: Signal Generation (60 points)
 
-After implementing the tasks, **please run `python check.py --uid <YOUR_UID>` before submitting.** This script performs automated tests on the examples provided in the docstrings. Failing these tests indicates potential critical issues in your code. Strive to resolve these problems. After that, it will create a zip file named after your `uid`. Make sure you enter the right `uid`. 
+**You are required to implement the functions in `task_1_1.py`**.
+
+Please generate the following signals by implementing `generate_signal(id)`, where `id` is the index of the signal. The sampling rate `f_s` is given by `self.fs` (`self.fs >= 1000Hz`) (You do not need to care about `self.fs`). The time range is $-1 \le t < 1s$
+
+1. Generate a pure tone signal with frequency and phase offset.
+
+![Pure Tone (Task 1-1-1)](image/lab_1_1_1.png)
+   
+2. Generate rectangle wave (pulse) and triangle wave.
+
+![Rectangle and triangle wave (Task 1-1-2)](image/lab_1_1_2.png)
+   
+3. Generate the complex signal according to the real and imaginary parts. These two are all pure tone signals.
+
+![Complex signal (Task 1-1-3)](image/lab_1_1_3.png)
+
+You should both return the time stamps (in `s`) and signals. For facilitating
+  the testing of your work, please strictly follow the return format.
+
+
+
+
+
+
+### Task 1-2: Chirp Signal (20 points)
+
+**You are required to implement the functions in `task_1_2.py`.** 
+
+A chirp signal is a type of signal in which the frequency changes over time. In radar and sonar signal processing, as well as in other fields, chirp signals are very useful because of their properties. 
+
+Based on different $f(t)$, you are supposed to generate different types of chirps. Your task is to generate the chirp signal (`s_t`) along with timestamp (`t`) and frequency function `f_t`. The sampling rate is given by `self.fs`. Time starts from 0. You are supposed to use the cosine function to generate the chirps.
+
+1. Linear Chirp:
+   $$
+   f(t)=f_{\text {start }}+\left(\frac{f_{\text {end }}-f_{\text {start }}}{T}\right) \cdot t
+   $$
+ Please implement `generate_linear_chirp(amplitude, period, duration, start_freq, end_freq, init_phase)`, where 
+ - `amplitude` is the maximum amplitude of the chirp signal,
+ - `period` is duration of one chirp cycle in seconds,
+ - `duration` means total duration of the signal in seconds, 
+ - `start_freq`: Starting frequency of the chirp in Hz,
+ - `end_freq`: Ending frequency of the chirp in Hz,
+ - `init_phase`:  Initial phase of the chirp in radians.
+
+You should return
+
+ - `t`: Timestamp values in second
+ - `f_t`: Frequency values over `t`
+ - `s_t`: Generated signal values
+
+
+2. Quadratic Chirp:
+   $$f(t) = f_{\text {start }} + (f_{\text {end }} - f_{\text {start }}) * \frac{t^2}{T^2}$$
+   Please implement `generate_quar_chirp(amplitude, period, duration, start_freq, end_freq, init_phase)`.
+
+
+
+### Task 1-3: Sum of Pure Tones (20 points)
+
+**You are required to implement the function in `task_1_3.py`.**
+
+Please generate a signal that is the aggregation of pure tone signals with different frequencies, i.e.
+$$
+s(t) = \sum_{i=1}^{n} cos(2 \pi \cdot f_i \cdot t).
+$$
+
+We denote $\vec{f} = [f_1, f_2, \cdots, f_n]$ as the frequency list. Please implement `generate_agg_pure_tone(freq_list)`, where  `freq_list` is $\vec{f}$.
+
+The sampling rate $f_s$ is 1000Hz. The time range is $-1 \le t < 1s$. We will use the following frequency list for the test:
+
+1. $\vec{f} = [10, 16] Hz$
+2. $\vec{f} = [10, 20, 30, 60, 120] Hz$
+
+
+
+(Optional, no need to submit) You can plot all these figures and see the curves. 
+
+## How to submit
+
+**Please run `python check.py --uid <YOUR_UID>` before submitting.** This script performs automated tests on the examples provided in the docstrings. Failing these tests indicates potential critical issues in your code. Strive to resolve these problems. After that, it will create a zip file named after your `uid`. Make sure you enter the right `uid`. 
 
 It's important to avoid changing the names of any files, including both the zip file and the program files contained within. Altering file names can lead to grading errors. Ensure that all file names remain as they are to facilitate accurate assessment of your work.
 
-Your submission to **Moodle** should consist solely of the **generated `*.zip` file**. It is your reponsibility to double check whether your submitted zip file includes your latest work. 
+Your submission to **Moodle** should consist solely of the **generated `*.zip` file**. It is your responsibility to double check whether your submitted zip file includes your latest work. 
