@@ -4,7 +4,7 @@ layout: home
 
 Welcome to COMP3516@HKU!
 
-**This is the non-official site of HKU COMP3516 2024 Spring. This website is maintained *at best effort*. Enrolled HKU students should join [Moodle page](https://moodle.hku.hk/course/view.php?id=116889). In the event of any discrepancies between this page and Moodle, the Moodle page shall prevail.**
+**This is the non-official site of HKU COMP3516 2025 Spring. This website is maintained *at best effort*. Enrolled HKU students should join [Moodle page](https://moodle.hku.hk/course/view.php?id=116889). In the event of any discrepancies between this page and Moodle, the Moodle page shall prevail.**
 
 
 This course introduces basic concepts, technologies, and applications of the Internet of Things (IoT), with a focus on data analytics. The course covers a range of enabling techniques in sensing, computing, analytics, learning for IoT and connects them to exciting applications in smart homes, healthcare, security, etc. The lectures cover the pipeline of data generation, data acquisition, data transportation, data analysis and learning, and data applications, with various topics from the fundamentals (e.g., signal processing, statistical analysis, machine learning) to real-world systems. Billions of things are connected today, and this course helps students to understand how IoT will evolve into AIoT (Artificial Intelligence of Things).
@@ -80,7 +80,7 @@ Besides TTT, as you can tell, the course also features intensive written communi
 | Name        	| Dr. Chenshu WU                                                                                                             	| Mr. Sheng LYU                                                                          	|
 | Office      	| Office: CB315B                                                                                                             	| HW101M                                                                                 	|
 | Email       	| chenshu@cs.hku.hk                                                                                                          	| shenglyu@connect.hku.hk                                                                	|
-| Office Hour 	| <br> Tue 9:00 am-10:30 am<br> Fri 9:00 am to 10:30 am<br>By appointment: [Appointment](https://calendly.com/cswu-1/comp3516-office-hours) 	| <br>Thur 12:30 PM - 13:30 PM (f2f)<br>Mon 9:30 AM - 10:30 AM (Online)<br>By appointment: https://hku.au1.qualtrics.com/jfe/form/SV_bmudu4j6QIUTWOG 	|
+| Office Hour 	| <br> Tue 9:00 am-10:30 am<br> Fri 9:00 am to 10:30 am<br>By appointment: [Appointment](https://calendly.com/cswu-1/comp3516-office-hours) 	| <br>Thur 12:30 PM - 13:30 PM (f2f)<br>Mon 9:30 AM - 10:30 AM (Online)<br>By appointment: [Appointment](https://hku.au1.qualtrics.com/jfe/form/SV_bmudu4j6QIUTWOG) 	|
 | Tel         	| 2241 5726                                                                                                                  	| 9476 5141 (Not preferred)                                                              	|
 
 

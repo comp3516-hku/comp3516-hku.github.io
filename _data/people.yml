@@ -1,11 +1,13 @@
 instructors:
   - name: Chenshu Wu
     profile_pic: /_images/pp/dumbledore.jpg
+    webpage: https://cswu.me
 
 
 teaching_assistants:
   - name: Sheng LYU
     profile_pic: /_images/pp/potter.jpg
+    webpage: https://research.ethanlyu.top
 
   # - name: Hermione Granger
   #   profile_pic: /_images/pp/granger.jpg
