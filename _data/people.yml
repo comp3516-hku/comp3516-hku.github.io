@@ -1,0 +1,16 @@
+instructors:
+  - name: Chenshu Wu
+    profile_pic: /_images/pp/dumbledore.jpg
+
+
+teaching_assistants:
+  - name: Sheng LYU
+    profile_pic: /_images/pp/potter.jpg
+
+  # - name: Hermione Granger
+  #   profile_pic: /_images/pp/granger.jpg
+  #   webpage: https://en.wikipedia.org/wiki/Hermione_Granger
+
+  # - name: Ron Weasley
+  #   profile_pic: /_images/pp/weasley.jpg
+  #   webpage: https://en.wikipedia.org/wiki/Ron_Weasley
