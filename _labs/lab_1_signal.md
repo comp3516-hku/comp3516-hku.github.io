@@ -159,7 +159,7 @@ from IPython.display import Video, HTML
 # show data_f video using HTML
 HTML(f"""
 <video width="960" height="540" controls>
-    <source src="example_data/example_1.mp4">
+    <source src="../static_files/example_data/example_1.mp4">
 </video>
 """)
 
@@ -170,7 +170,7 @@ HTML(f"""
 
 
 <video width="960" height="540" controls>
-    <source src="example_data/example_1.mp4">
+    <source src="../static_files/example_data/example_1.mp4">
 </video>
 
 
