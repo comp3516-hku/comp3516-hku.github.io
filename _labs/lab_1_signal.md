@@ -188,7 +188,7 @@ from IPython.display import HTML
 # please refer to https://github.com/Zulko/moviepy/issues/2025 to downgrade numpy or use AudioFileClip
 HTML("""
      <audio <audio width=" " height=" "
-       src="example_data/example_1.mp4"  
+       src="../static_files/example_data/example_1.mp4"  
        controls>
      </audio>
 """)
