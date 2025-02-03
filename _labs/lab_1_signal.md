@@ -159,7 +159,7 @@ from IPython.display import Video, HTML
 # show data_f video using HTML
 HTML(f"""
 <video width="960" height="540" controls>
-    <source src="../static_files/example_data/example_1.mp4">
+    <source src="example_data/example_1.mp4">
 </video>
 """)
 
@@ -188,7 +188,7 @@ from IPython.display import HTML
 # please refer to https://github.com/Zulko/moviepy/issues/2025 to downgrade numpy or use AudioFileClip
 HTML("""
      <audio <audio width=" " height=" "
-       src="../static_files/example_data/example_1.mp4"  
+       src="example_data/example_1.mp4"  
        controls>
      </audio>
 """)
@@ -199,7 +199,7 @@ HTML("""
 
 
 <audio <audio width=" " height=" "
-  src="example_data/example_1.mp4"  
+  src="../static_files/example_data/example_1.mp4"  
   controls>
 </audio>
 
