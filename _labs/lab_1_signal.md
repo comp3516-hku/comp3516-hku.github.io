@@ -220,7 +220,7 @@ plt.show()
 
 
     
-![png](lab_1_signal_files/lab_1_signal_13_0.png)
+![png](../static_files/lab_1_signal_files/lab_1_signal_13_0.png)
     
 
 
@@ -282,7 +282,7 @@ plt.grid(True)
 
 
     
-![png](lab_1_signal_files/lab_1_signal_20_0.png)
+![png](../static_files/lab_1_signal_files/lab_1_signal_20_0.png)
     
 
 
@@ -335,7 +335,7 @@ plt.grid(True)
 
 
     
-![png](lab_1_signal_files/lab_1_signal_23_0.png)
+![png](../static_files/lab_1_signal_files/lab_1_signal_23_0.png)
     
 
 
@@ -376,7 +376,7 @@ plt.grid(True)
 
 
     
-![png](lab_1_signal_files/lab_1_signal_25_0.png)
+![png](../static_files/lab_1_signal_files/lab_1_signal_25_0.png)
     
 
 
@@ -468,7 +468,7 @@ plt.show()
 
 
     
-![png](lab_1_signal_files/lab_1_signal_29_0.png)
+![png](../static_files/lab_1_signal_files/lab_1_signal_29_0.png)
     
 
 
@@ -536,7 +536,7 @@ plt.grid(True)
 
 
     
-![png](lab_1_signal_files/lab_1_signal_33_0.png)
+![png](../static_files/lab_1_signal_files/lab_1_signal_33_0.png)
     
 
 
@@ -598,7 +598,7 @@ plt.grid(True)
 
 
     
-![png](lab_1_signal_files/lab_1_signal_35_0.png)
+![png](../static_files/lab_1_signal_files/lab_1_signal_35_0.png)
     
 
 
