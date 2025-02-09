@@ -113,7 +113,7 @@ plt.ylabel("Magnitude (frequency domain)")
 
 
     
-![png](../static_files/lab_2_frequey_files/lab_2_frequency_8_1.png)
+![png](../static_files/lab_2_frequency_files/lab_2_frequency_8_1.png)
     
 
 
