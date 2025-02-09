@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2025-02-07
-title: Signal Basics
+title: Wireless for IoT
 # tldr: ""
 # thumbnail: /static_files/presentations/lec.jpg
 links: 
@@ -9,7 +9,7 @@ links:
     #   name: notes
     # - url: /static_files/presentations/code.zip
     #   name: codes
-    # - url: /static_files/slides/lec01-introduction.pdf
-    #   name: slides
+    - url: /static_files/slides/lec02-wireless.pdf
+      name: slides
 ---
 
