@@ -707,7 +707,7 @@ You are required to implement `estimate_distance()` to estimate the distance of 
 Additioally, you are required to return the `range_fft` and `range_bins`. `range_fft` is the FFT result of the IF signal, and `range_bins` is the corresponding range bins in meters. 
 
 > Hint: You can expect to see two peaks in the range-FFT. We showcase an illustration here, where the x-axis is the range bins and the y-axis is the magnitude of the FFT result.
-![range_fft](./static_files/range_fft.png)
+![range_fft](../static_files/range_fft.png)
 
 Localizing distance is not enough. We also need to estimate the angle of the target. The angle can be estimated by analyzing the phase difference between the transmitted and received signals. Simply put, the AoA can be estimated by
 $$
