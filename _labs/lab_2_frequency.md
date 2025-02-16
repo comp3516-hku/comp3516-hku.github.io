@@ -711,8 +711,9 @@ Additioally, you are required to return the `range_fft` and `range_bins`. `range
 
 Localizing distance is not enough. We also need to estimate the angle of the target. The angle can be estimated by analyzing the phase difference between the transmitted and received signals. Simply put, the AoA can be estimated by
 $$
-\theta = \arcsin\left(\frac{\Delta \phi}{2\pi \cdot f_c \cdot T}\right)
+\theta = \arcsin\left(\frac{c \cdot \Delta \phi}{2\pi \cdot f_c \cdot s}\right)
 $$
+where $s$ is the spacing between the antennas. Here we set $s$ as half of the wavelength.
 
 > **Checkpoint 4:** Estimate the AoA (15 points).
 
