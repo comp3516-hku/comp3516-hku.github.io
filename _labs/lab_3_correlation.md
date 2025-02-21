@@ -4480,7 +4480,7 @@ In this task, you are now given multiple files. These files contain signals that
 
 **You are required to implement the functions in `task_3_3.py`**.
 
-Imagine you are the junior technical engineer of a startup commany SenseAI, which provides solutions to smart homes with monitoring of temperature, motion, event and sound. One of your customers, Ethan, has installed multiple sensors of your brand in his house. He has been noticing odd patterns—like lights turning on when no one’s home or his heating acting up—and he’s asked SenseAI to analyze the sensor data to figure out what’s going on.
+Imagine you are the junior technical engineer of a startup company SenseAI, which provides solutions to smart homes with monitoring of temperature, motion, event and sound. One of your customers, Ethan, has installed multiple sensors of your brand in his house. He has been noticing odd patterns—like lights turning on when no one’s home or his heating acting up—and he’s asked SenseAI to analyze the sensor data to figure out what’s going on.
 
 Your boss, Dr. C.S. Wu , assigns you to tackle this problem, using what you have learnt in this lab. You will be given the dataset from Ethan's apartment. The dataset contains the following signals: motion sensor data, temperature sensor data, event sensor data, and sound sensor data. Before you start, let's wrap up the concepts you have learnt in this lab.
 
@@ -4492,7 +4492,7 @@ $$
 
 where $\tau$ is the time shift, $N$ is the length of the signal, and $s(t)$ is the signal at time $t$. With `correlate(s, s, mode='full')`, you get the lags from $-N+1$ to $N-1$, and `acf[acf.size//2:]` gives you the positive lags ($\tau > 0$).
 
-Now, we’ll use correlation to compare two different signals at the same time (or with shifts) to measure their similarity. Here, we introduce Pearson Correlation Coefficiet (PCC) to compare different sensor signals and uncover relatioships between them. Pearson measures how linearly two signals move together—perfect for solving Ethan’s mysteries. Here’s the formula:
+Now, we’ll use correlation to compare two different signals at the same time (or with shifts) to measure their similarity. Here, we introduce Pearson Correlation Coefficient (PCC) to compare different sensor signals and uncover relationships between them. Pearson measures how linearly two signals move together—perfect for solving Ethan’s mysteries. Here’s the formula:
 
 $$
 \rho = \frac{\sum_{i=0}^{N-1} (s_1[i] - \bar{s_1})\cdot(s_2[i] - \bar{s_2})}{\sqrt{\sum_{i=0}^{N-1} (s_1[i] - \bar{s_1})^2 \cdot \sum_{i=0}^{N-1} (s_2[i] - \bar{s_2})^2}},
@@ -4519,14 +4519,14 @@ The PCC is a very powerful indicator of similarity between two signals. It range
 You will first work on the motion sensor data. There are two sensors inside the apartment, one in the living room and one in the bedroom. Typically, the light will be turned on when the motion sensor detects movement. When someone is in the living room, we assume that the light in the living room is on. When someone is in the bedroom, we assume that the light in the bedroom is on. We assume that when the person is in the living room, only the motion sensor in the living room will be triggered. The same applies to the bedroom. In other words, the data from the two sensors should be negatively correlated.
 
 Below is an example of the motion sensor data. The sampling rate is 1 Hz.
-![Motion Sensor](./static_files/image/motion_sensor.png)
+![Motion Sensor](image/motion_sensor.png)
 
-> **Checkpoit 2 (5 points):** Implement `check_motion_sensors(m1, m2)` to calculate the PCC between the two motion sensor signals. You should return the PCC value and a Boolean value indicating whether the two sensors are working properly.
+> **Checkpoint 2 (5 points):** Implement `check_motion_sensors(m1, m2)` to calculate the PCC between the two motion sensor signals. You should return the PCC value and a Boolean value indicating whether the two sensors are working properly.
 
 You will then work on the temperature sensor data. There are two temperature sensors in the apartment, one in the living room and one in the bedroom. The temperature in the living room and the bedroom should be positively correlated.
 
 Below is an example of the temperature sensor data. The sampling rate is 1 Hz.
-![Temperature Sensor](./static_files/image/temperature_sensor.png)
+![Temperature Sensor](image/temperature_sensor.png)
 
 > **Checkpoint 3 (5 points):** Implement `check_temperature_sensors(t1, t2)` to calculate the PCC between the two temperature sensor signals. You should return the PCC value and a Boolean value indicating whether the two sensors are working properly.
 
@@ -4535,7 +4535,7 @@ On Friday at 11:00 p.m., while he’s at a late study session, his smart home ap
 To this end, you will check the two event sensors in the apartment and examine the synchronization between them.
 
 Below is an example of the event sensor data. The sampling rate is 0.1 Hz.
-![Event Sensor](./static_files/image/event_sensor.png)
+![Event Sensor](image/event_sensor.png)
 
 > **Checkpoint 4 (10 points):** Implement `sync_event_signals(s1, s2)` to synchronize the two sound sensor signals. You should return the delay in seconds and whether it can normally trigger the alarm.
 
@@ -4543,7 +4543,7 @@ Below is an example of the event sensor data. The sampling rate is 0.1 Hz.
 Finally, Ethan’s been puzzled by flickering lights even when he’s away. He suspects a neighbor’s loud music might be triggering the sound-activated lighting system falsely. On Saturday morning, the living room sound sensor records ambient noise, and Ethan provides a known pattern of his neighbor’s bass-heavy music (pattern, 100 samples). You are required to detect the pattern in the sound sensor signal.
 
 Below is an example of the sound sensor data. The sampling rate is 16 kHz.
-![Sound Sensor](./static_files/image/sound_sensor.png)
+![Sound Sensor](image/sound_sensor.png)
 
 > **Checkpoint 5 (10 points):** Implement `detect_music_pattern(s, p)` to detect the neighbor’s music pattern in the sound signal. Use PCC to find where the pattern best matches. Return the starting index (integer) of the strongest match.
 
@@ -4557,6 +4557,5 @@ You will then report your results to the company's internal system -- Moodle, wh
 It's important to avoid changing the names of any files, including both the zip file and the program files contained within. Altering file names can lead to grading errors. Ensure that all file names remain as they are to facilitate accurate assessment of your work.
 
 Your submission to **Moodle** should consist solely of the **generated `*.zip` file**. It is your responsibility to double check whether your submitted zip file includes your latest work. 
-
 
 
