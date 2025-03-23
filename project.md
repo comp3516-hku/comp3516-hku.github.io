@@ -94,7 +94,7 @@ You are highly recommended to refer to the following websites for more detail:
 
 ### Hardware Setup
 
-Please refer to the [ESP32C5 Start-up Tutorial](./project/esp32tutorial) for more details.
+Please refer to the [ESP32C5 Start-up Tutorial](./esp32tutorial) for more details.
 
 Make sure you have installed the development environment and flashed the firmware onto the ESP32-C5 boards. Below are some additional notes:
 
@@ -203,6 +203,10 @@ The following materials can be useful to setup MQTT service for the ESP32C5 devi
     - YouTube: [MQTT Beginner Guide with Python](https://www.youtube.com/watch?v=kuyCd53AOtg)
     - Most languages have MQTT client libraries, including Java, Flutter, JavaScript, etc.
 ---
+
+### Notes on connecting to Wi-Fi Network in HKU
+
+Please refer to [Notes on Connecting to Wi-Fi Network in HKU](./wifi) for more details.
 
 ## Starter Code and Benchmark Dataset
 
