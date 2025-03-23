@@ -3,12 +3,7 @@ layout: page
 title: Project
 permalink: /project/
 ---
----
-title: "Group Project"
-author: COMP3516@HKU
-date: "Due: 2025-04-24"
-keywords: 
----
+
 
 # Group Project
 
