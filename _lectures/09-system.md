@@ -9,7 +9,7 @@ links:
     #   name: notes
     # - url: /static_files/presentations/code.zip
     #   name: codes
-    # - url: /static_files/slides/lec01-introduction.pdf
-    #   name: slides
+    - url: /static_files/slides/lec06-sensing systems.pdf
+      name: slides
 ---
 

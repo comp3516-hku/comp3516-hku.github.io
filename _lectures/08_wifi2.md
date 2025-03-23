@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2025-03-04
-title: Wi-Fi Sensing II
+title: Tutorial-2
 # tldr: ""
 # thumbnail: /static_files/presentations/lec.jpg
 links: 

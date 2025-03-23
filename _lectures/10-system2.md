@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2025-03-18
-title: Sensing Systems II
+title: Mobile Sensing I
 # tldr: ""
 # thumbnail: /static_files/presentations/lec.jpg
 links: 
@@ -9,7 +9,7 @@ links:
     #   name: notes
     # - url: /static_files/presentations/code.zip
     #   name: codes
-    # - url: /static_files/slides/lec01-introduction.pdf
-    #   name: slides
+    - url: /static_files/slides/lec07-mobile-sensing.pdf
+      name: slides
 ---
 
