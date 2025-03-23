@@ -2,7 +2,7 @@
 layout: lab
 type: lab
 date: 2025-03-20
-title: 'Lab #3 Correlation'
+title: 'Lab #4 Filter'
 # pdf: /static_files/assignments/asg.pdf
 attachment: /static_files/lab_4_release.zip
 # solutions: /static_files/assignments/asg_solutions.pdf
