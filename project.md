@@ -94,7 +94,7 @@ You are highly recommended to refer to the following websites for more detail:
 
 ### Hardware Setup
 
-Please refer to the [ESP32C5 Start-up Tutorial](./esp_tutorial.md) for more details.
+Please refer to the [ESP32C5 Start-up Tutorial](./project/esp32tutorial) for more details.
 
 Make sure you have installed the development environment and flashed the firmware onto the ESP32-C5 boards. Below are some additional notes:
 
