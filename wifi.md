@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ESP32C5 Start-up Tutorial
+title: Notes on Wi-Fi Connection for ESP32
 permalink: /project/wifi
 ---
 Both `csi_recv` and `mqtt` requires the ESP32 to connect to a Wi-Fi, where your laptop and CSI sender can find in the local network.
