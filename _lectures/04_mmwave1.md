@@ -9,7 +9,7 @@ links:
     #   name: notes
     # - url: /static_files/presentations/code.zip
     #   name: codes
-    - url: /static_files/slides/lec04-mmWave_sensing.pdf
+    - url: /static_files/slides/lec04-mmWave sensing.pdf
       name: slides
 ---
 

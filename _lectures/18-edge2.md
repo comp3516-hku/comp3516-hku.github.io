@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2025-04-22
-title: Edge AI II
+title: Tutorial IV
 # tldr: ""
 # thumbnail: /static_files/presentations/lec.jpg
 links: 
