@@ -28,7 +28,7 @@ markdown: kramdown
 excerpt_separator: "<!--more-->"
 
 include: ['_images', '_css']
-exclude: ['develop']
+exclude: ['develop', 'vendor', 'vendor/bundle', 'vendor/cache', 'vendor/gems', 'vendor/ruby', 'node_modules']
 
 dateformat: "%m/%d/%Y"
 
