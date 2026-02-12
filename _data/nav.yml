@@ -1,12 +1,4 @@
 items:
 - url: /
-  name: Offerings
+  name: Home
   icon_class: fa fa-home fa-lg
-
-- url: /2025/
-  name: Spring 2025
-  icon_class: fas fa-calendar-alt
-
-- url: /2026/
-  name: Spring 2026
-  icon_class: fas fa-calendar-alt
