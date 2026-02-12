@@ -1,6 +1,15 @@
-# COMP3516 HKU 2024 Fall
+# COMP3516 HKU Offerings Portal
 
-Welcome to COMP3516@HKU!
+This repository is the portal site for COMP3516 offerings.
 
-**This is the non-official site of HKU COMP3516 2024 Spring. This website is maintained *at best effort*. Enrolled HKU students should join [Moodle page](https://moodle.hku.hk/course/view.php?id=106576). In the event of any discrepancies between this page and Moodle, the Moodle page shall prevail.**
+- Root page lists available offerings by year.
+- `/2025/` redirects to `https://comp3516-hku.github.io/comp3516-2025/`
+- `/2026/` redirects to `https://comp3516-hku.github.io/comp3516-2026/`
+
+To add a new year:
+
+1. Create or fork a new year repo (for example `comp3516-2027`).
+2. Set `url` and `baseurl` in that repo's `_config.yml`.
+3. Add a new redirect page in this portal repo (`/2027/index.html`).
+4. Add the year entry in this portal's `index.md`.
 

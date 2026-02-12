@@ -34,24 +34,3 @@ exclude: ['develop', 'vendor', 'vendor/bundle', 'vendor/cache', 'vendor/gems', '
 dateformat: "%m/%d/%Y"
 
 future: true
-collections:
-    events:
-        output: true
-    assignments:
-        output: true
-    tutorials:
-        output: true
-    lectures:
-        output: true
-    announcements:
-        output: false
-    labs:
-        output: true
-
-
-defaults:
-  - scope:
-      path: ""
-      type: "assignments"
-    values:
-      layout: "assignment"
