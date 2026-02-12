@@ -3,7 +3,7 @@ layout: default
 title: COMP3516 Course Offerings
 ---
 
-## COMP3516 Course Offerings
+## COMP3516 @ HKU
 
 Welcome! Please choose the course offering year:
 
