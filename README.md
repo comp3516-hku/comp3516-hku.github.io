@@ -32,7 +32,7 @@ The year repo navbar already includes a `Portal` link. Keep it as:
 
 - `https://comp3516-hku.github.io/`
 
-### 3) Modify the portal repo for the new year
+### 3) Modify the portal repo for the new year offering
 
 In `comp3516-hku.github.io`:
 
