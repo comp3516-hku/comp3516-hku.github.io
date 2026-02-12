@@ -5,6 +5,7 @@ course_semester: "Offerings Portal"
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://comp3516-hku.github.io" # the base hostname & protocol for your site
+repository: "comp3516-hku/comp3516-hku.github.io"
 
 schoolname: "School of Computing and Data Science, The University of Hong Kong (HKU)"
 schoolurl: "https://cds.hku.hk"
