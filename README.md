@@ -15,7 +15,7 @@ This repository is the landing portal for all COMP3516 yearly offerings.
 
 ## Add a new offering year (for future TAs)
 
-### 1) Create the new year repo
+### 1) Create the new year's course repo
 
 Recommended: fork/copy from the latest year repo (for example from `comp3516-2026` to `comp3516-2027`) so layout and workflows stay consistent.
 
