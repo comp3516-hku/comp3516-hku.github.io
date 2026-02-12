@@ -1,10 +1,10 @@
 # Site settings
-course_name: COMP3516 Data analytics for IoT
-course_description: "COMP3516 HKU Data analytics for IoT"
-course_semester: "Spring 2025"
+course_name: COMP3516 Data Analytics for IoT
+course_description: "COMP3516 HKU course offerings portal"
+course_semester: "Offerings Portal"
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://comp3516-hku.github.io/" # the base hostname & protocol for your site
+url: "https://comp3516-hku.github.io" # the base hostname & protocol for your site
 
 schoolname: "School of Computing and Data Science, The University of Hong Kong (HKU)"
 schoolurl: "https://cds.hku.hk"

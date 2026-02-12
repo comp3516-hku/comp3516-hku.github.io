@@ -1,32 +1,12 @@
 items:
 - url: /
-  name: Home
+  name: Offerings
   icon_class: fa fa-home fa-lg
 
-- url: /schedule/
-  name: Schedule
+- url: /2025/
+  name: Spring 2025
   icon_class: fas fa-calendar-alt
 
-# - url: /lectures/
-#   name: Lectures
-#   icon_class: fas fa-book-reader
-
-- url: /tutorials/
-  name: Tutorials
-  icon_class: fas fa-book-reader
-
-- url: /labs/
-  name: Labs
-  icon_class: fab fa-github
-
-- url: /assignments/
-  name: Assignments
-  icon_class: fas fa-user-graduate
-
-- url: /project/
-  name: Project
-  icon_class: fas fa-user-graduate
-
-- url: /materials/
-  name: Materials
-  icon_class: fas fa-book
+- url: /2026/
+  name: Spring 2026
+  icon_class: fas fa-calendar-alt
