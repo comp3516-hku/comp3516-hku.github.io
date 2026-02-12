@@ -17,7 +17,7 @@ This repository is the landing portal for all COMP3516 yearly offerings.
 
 ### 1) Create the new year's course repo
 
-Recommended: fork/copy from the latest year repo (for example from `comp3516-2026` to `comp3516-2027`) so layout and workflows stay consistent.
+Recommended: fork/copy from the latest year repo (for example from `comp3516-2026` to `comp3516-2027`) so layout stays consistent.
 
 ### 2) Update the new year repo content/config
 
@@ -66,27 +66,24 @@ Redirect template:
 ### Portal repo (`comp3516-hku.github.io`)
 
 - `Settings` -> `Pages` -> `Build and deployment`:
-  - `Source = GitHub Actions`
-- `Settings` -> `Actions` -> `General`:
-  - allow GitHub Actions
-  - workflow permissions: `Read and write permissions`
+  - `Source = Deploy from a branch`
+  - `Branch = main` (or `master` if that is your default branch)
+  - `Folder = /(root)`
 
 ### Each year repo (`comp3516-20YY`)
 
 - `Settings` -> `Pages` -> `Build and deployment`:
-  - `Source = GitHub Actions`
-- `Settings` -> `Actions` -> `General`:
-  - allow GitHub Actions
-  - workflow permissions: `Read and write permissions`
+  - `Source = Deploy from a branch`
+  - `Branch = main` (or `master` if that is your default branch)
+  - `Folder = /(root)`
 - Do not set custom domain on year repos.
 
 ## Deployment checklist
 
 1. Push changes to portal repo.
 2. Push changes to new year repo.
-3. Ensure Actions workflows pass in both repos.
+3. Wait for GitHub Pages to finish publishing.
 4. Verify URLs:
    - `https://comp3516-hku.github.io/`
    - `https://comp3516-hku.github.io/20YY/`
    - `https://comp3516-hku.github.io/comp3516-20YY/`
-
